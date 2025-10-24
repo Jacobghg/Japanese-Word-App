@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Japanese Language Learning Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack web application designed for learning Japanese vocabulary with integrated database storage and performance tracking.
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+This application allows users to build and manage their Japanese vocabulary by storing words with their English translations, reading types (hiragana/katakana), and contextual categories. The app tracks learning progress through accuracy metrics to help users focus on challenging vocabulary.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
+- React.js
+- Firebase Firestore (database)
+- JavaScript (ES6+)
+- HTML5/CSS3
+
+## Features
+
+- Add Japanese vocabulary entries with English translations
+- Support for multiple Japanese character types (hiragana, katakana, kanji)
+- Categorization system for organizing vocabulary by context (conversation, grammar, etc.)
+- Performance tracking with accuracy metrics (timesCorrect/timesIncorrect)
+- Real-time data persistence and retrieval
+- Learning status tracking for each word entry
+- Timestamp tracking for vocabulary entries
+
+## Data Model
+
+Each vocabulary entry includes:
+- Japanese characters
+- English translation
+- Reading type (hiragana/katakana)
+- Category (conversation, grammar, etc.)
+- Learning status
+- Performance metrics (correct/incorrect counts)
+- Timestamp
+
+## Installation and Setup
+
+Clone the repository:
+```bash
+git clone https://github.com/Jacobghg/Japanese-Word-App.git
+cd Japanese-Word-App
+```
+
+Install dependencies:
+```bash
+npm install
+```
+
+Configure Firebase:
+- Create a Firebase project at [https://console.firebase.google.com](https://console.firebase.google.com)
+- Add your Firebase configuration to the project
+- Enable Firestore Database in your Firebase console
+
+Run the development server:
+```bash
+npm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Building for Production
 
-### `npm test`
+Create an optimized production build:
+```bash
+npm run build
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT License
