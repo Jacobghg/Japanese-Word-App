@@ -28,8 +28,9 @@ This application allows users to build and manage their Japanese vocabulary by s
 - Timestamp tracking for vocabulary entries
 
 ## Screenshots
-
-*Add screenshots of your application here to show what it looks like*
+<img width="2520" height="706" alt="Screenshot 2025-10-24 093132" src="https://github.com/user-attachments/assets/cd621d82-e2c0-469f-a880-a629326bc450" />
+<img width="2084" height="484" alt="Screenshot 2025-10-24 093330" src="https://github.com/user-attachments/assets/f211a642-6f11-47c6-a48d-047766cf52d4" />
+<img width="2548" height="672" alt="Screenshot 2025-10-24 093344" src="https://github.com/user-attachments/assets/00885bbe-868a-46c9-b69b-df9ae17cd30d" />
 
 ## Data Model
 
